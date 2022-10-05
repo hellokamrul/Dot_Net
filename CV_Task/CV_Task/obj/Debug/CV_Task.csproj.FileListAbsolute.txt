@@ -1,0 +1,8 @@
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\bin\Debug\CV_Task.exe.config
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\bin\Debug\CV_Task.exe
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\bin\Debug\CV_Task.pdb
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\obj\Debug\CV_Task.csproj.AssemblyReference.cache
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\obj\Debug\CV_Task.csproj.SuggestedBindingRedirects.cache
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\obj\Debug\CV_Task.csproj.CoreCompileInputs.cache
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\obj\Debug\CV_Task.exe
+D:\DotNet\DotNet_Mid\CV_Task\CV_Task\obj\Debug\CV_Task.pdb
