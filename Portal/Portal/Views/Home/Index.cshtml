@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Log In</h2>
+<a value="Create" onclick="location.href='@Url.Action("Create", "Registration")'" class="btn btn-danger">Registration</a>
+
+<form action="" method="post">
+    <input type="text" name="StudentId" value="" class="form-control" placeholder="ID" />
+    <input type="text" name="Password" class="form-control" placeholder="Password" />
+    <input type="submit" class="btn btn-success" value="Login" />
+</form>
+

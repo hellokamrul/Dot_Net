@@ -23,12 +23,20 @@ namespace Practice.Controllers
             if (ModelState.IsValid)
             {
                 System.Diagnostics.Debug.WriteLine("REGISTRATION SUCCESSFUL!");
+                return RedirectToAction("Success", r);
+
             } else
             {
                 System.Diagnostics.Debug.WriteLine("SHOB KHALI ACHE!");
             }
 
             return View(r);
+        }
+
+
+        public ActionResult Success(Registration r) {
+            ViewBag.first_name = r.first_name;
+            return View();
         }
     }
 }

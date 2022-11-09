@@ -1,0 +1,17 @@
+﻿y@model List<Registration.Controllers.DB.Courses>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form action="/PreRegistration/index" method="post">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><input type="checkbox" name="Courses[]" value="@item.Id">  @item.Name | @item.CourseStudents.Count</li>
+        }
+
+    </ul>
+    <input type="submit" value="Registration"/>
+</form>

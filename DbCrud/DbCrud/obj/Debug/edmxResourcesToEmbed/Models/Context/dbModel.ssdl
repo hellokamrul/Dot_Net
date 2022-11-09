@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_testModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'db_test.dbo.tbl_Student' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Student">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Password" />
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="Phone" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="db_testModelStoreContainer">
+    <EntitySet Name="tbl_Student" EntityType="Self.tbl_Student" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tbl_Student].[ID] AS [ID], 
+    [tbl_Student].[Name] AS [Name], 
+    [tbl_Student].[Password] AS [Password], 
+    [tbl_Student].[Email] AS [Email], 
+    [tbl_Student].[Phone] AS [Phone]
+    FROM [dbo].[tbl_Student] AS [tbl_Student]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

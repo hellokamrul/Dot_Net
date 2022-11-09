@@ -1,0 +1,12 @@
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\bin\Debug\BLC.dll
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\bin\Debug\BLC.pdb
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\bin\Debug\DAL.dll
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\bin\Debug\EntityFramework.dll
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\bin\Debug\DAL.pdb
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\bin\Debug\DAL.dll.config
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\bin\Debug\EntityFramework.xml
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\obj\Debug\BLC.csproj.AssemblyReference.cache
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\obj\Debug\BLC.csproj.CoreCompileInputs.cache
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\obj\Debug\BLC.csproj.CopyComplete
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\obj\Debug\BLC.dll
+D:\DotNet\DotNet_Mid\ApplicationMvcLayer\BLC\obj\Debug\BLC.pdb

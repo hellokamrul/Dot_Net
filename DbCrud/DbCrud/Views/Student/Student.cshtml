@@ -1,0 +1,31 @@
+﻿@model  DbCrud.Models.Context.tbl_Student
+@{
+    ViewBag.Title = "Student";
+}
+
+<h2>Student</h2>
+
+<h2>Index</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        
+        <th></th>
+        <th></th>
+    </tr>
+    @foreach (var b in Model)
+    {
+        <tr>
+            <td>@b.ID</td>
+            <td>@b.Name </td>
+            <td>@b.Email</td>
+            <td>@b.Phone</td>
+            
+            <td><a href="/book/edit/@b.ID" class="btn btn-info">Edit</a></td>
+            <td><a href="" class="btn btn-danger">Delete</a></td>
+        </tr>
+    }
+</table>
