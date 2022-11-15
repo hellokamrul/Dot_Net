@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table>
+    <tr>
+         <td>
+            @Html.ActionLink("See Post", "Post", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Employee", "Employee", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+    
+</table>

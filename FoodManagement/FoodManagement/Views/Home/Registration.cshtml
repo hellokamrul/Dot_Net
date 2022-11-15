@@ -1,0 +1,22 @@
+﻿@model FoodManagement.Models.Type
+
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Registration</h2>
+
+
+<form action="/Home/Registration" method="post">
+
+    <div class="form-group">
+        <label class="form-control-label">Type</label>
+        <select class="form-control" name="Id">
+            <option value=2>Employee</option>
+            <option value=3>Restaurant</option>
+        </select>
+
+    </div>
+
+    <input type="submit" class="btn btn-success" value="Next" />
+</form>
